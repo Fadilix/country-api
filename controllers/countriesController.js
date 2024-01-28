@@ -1,7 +1,7 @@
 const { countries } = require("../database/countriesData")
 
 const getDefaultRoute = async (req, res) => {
-    return res.json({ msg: "Welcome to the free country API" })
+    return res.json({ msg: "Welcome to the free country API", apiDocumentation: "https://github.com/Fadilix/country-api" })
 }
 
 const getAllCountries = async (req, res) => {
