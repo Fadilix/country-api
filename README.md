@@ -41,21 +41,23 @@ Make requests to the specified endpoints to retrieve information about countries
 - **Example response:**
 
 ```json
-data: [
+{
+  "data": [
     {
-        "name": "Afghanistan",
-        "code": "AF"
+      "name": "Afghanistan",
+      "code": "AF"
     },
     {
-        "name": "Åland Islands",
-        "code": "AX"
+      "name": "Åland Islands",
+      "code": "AX"
     },
     {
-        "name": "Albania",
-        "code": "AL"
-    },
+      "name": "Albania",
+      "code": "AL"
+    }
     // other countries...
-]
+  ]
+}
 ```
 
 ### Get Country by Name
@@ -66,12 +68,14 @@ data: [
 - **Example response:**
 
 ```json
-data: [
+{
+  "data": [
     {
-        "name": "Canada",
-        "code": "CA"
-    },
-]
+      "name": "Canada",
+      "code": "CA"
+    }
+  ]
+}
 ```
 
 ### Get Country by Code
@@ -82,10 +86,12 @@ data: [
 - **Example response:**
 
 ```json
-data: [
+{
+  "data": [
     {
-        "name": "Albania",
-        "code": "AL"
-    },
-]
+      "name": "Albania",
+      "code": "AL"
+    }
+  ]
+}
 ```
