@@ -35,7 +35,7 @@ Make requests to the specified endpoints to retrieve information about countries
 
 ### Get All Countries
 
-- **URL:** `/countries`
+- **URL:** `/api/countries`
 - **Method:** `GET`
 - **Description:** Retrieve a list of all countries.
 - **Example response:**
@@ -62,7 +62,7 @@ Make requests to the specified endpoints to retrieve information about countries
 
 ### Get Country by Name
 
-- **URL:** `/countries/:countryName`
+- **URL:** `/api/countries/:countryName`
 - **Method:** `GET`
 - **Description:** Retrieve information about a specific country by its name.
 - **Example response:**
@@ -80,7 +80,7 @@ Make requests to the specified endpoints to retrieve information about countries
 
 ### Get Country by Code
 
-- **URL:** `/countries/code/:countryCode`
+- **URL:** `/api/countries/code/:countryCode`
 - **Method:** `GET`
 - **Description:** Retrieve information about a specific country by its country code.
 - **Example response:**
